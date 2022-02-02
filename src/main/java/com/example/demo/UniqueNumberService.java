@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class UniqueNumberService extends Exception{
+public class UniqueNumberService{
 
     public long findUniqueNumber(int entries, int[] array, int sum) throws InvalidEntriesException {
         long product = 0;
